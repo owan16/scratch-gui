@@ -16,6 +16,8 @@ import text2speechInsetIconURL from './text2speech/text2speech-small.svg';
 import translateIconURL from './translate/translate.png';
 import translateInsetIconURL from './translate/translate-small.png';
 
+import browserImage from './translate/translate.png';
+
 import makeymakeyIconURL from './makeymakey/makeymakey.png';
 import makeymakeyInsetIconURL from './makeymakey/makeymakey-small.svg';
 
@@ -195,6 +197,14 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/microbit'
+    },
+    {
+        name: 'Browser Information',
+        extensionId: 'browser',
+        extensionURL: '/example-browser-extension.js',
+        iconURL: browserImage,
+        description: 'The extesion for querying browser information (DEMO)',
+        featured: true
     },
     {
         name: 'LEGO MINDSTORMS EV3',
